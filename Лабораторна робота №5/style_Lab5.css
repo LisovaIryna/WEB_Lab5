@@ -224,7 +224,7 @@
 
 .place2 {left: 25%;}
 
-.bg_ {background-image: url(Background.png);}
+.bg_ {background-image: url(images/Background.png);}
 
 .item_About { height: 400px;}
 
@@ -236,14 +236,14 @@
 @media (max-width: 575px) {.item_About{height: 150px}}
 
 .About {position: absolute;
-	    top: 5%; 
+	      top: 5%; 
         height: 20%;
         text-align: center;
         font-weight: 200;
         font-family: Inter; 
-	    font-size: 35px;
-	    font-stretch: 0.01rem;
-	    color: #545455;}
+	      font-size: 35px;
+	      font-stretch: 0.01rem;
+	      color: #545455;}
 
 @media (min-width: 1400px) {.About{font-size: 35px;}}
 @media (min-width: 1200px) and (max-width: 1399px) {.About{font-size: 30px;}}
