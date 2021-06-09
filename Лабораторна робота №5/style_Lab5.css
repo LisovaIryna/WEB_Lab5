@@ -14,10 +14,10 @@
 
 @media (min-width: 1400px) {.item_{height: 300px}}
 @media (min-width: 1200px) and (max-width: 1399px) {.item_{height: 300px}}
-@media (min-width: 992px) and (max-width: 1199px) {.item_{height: 300px}}
-@media (min-width: 768px) and (max-width: 991px) {.item_{height: 300px}}
-@media (min-width: 576px) and (max-width: 767px) {.item_{height: 200px}}
-@media (max-width: 575px) {.item_{height: 200px}}
+@media (min-width: 992px) and (max-width: 1199px) {.item_{height: 500px}}
+@media (min-width: 768px) and (max-width: 991px) {.item_{height: 500px}}
+@media (min-width: 576px) and (max-width: 767px) {.item_{height: 500px}}
+@media (max-width: 575px) {.item_{height: 500px}}
 
 .item {height: 300px;}
 
@@ -25,8 +25,8 @@
 @media (min-width: 1200px) and (max-width: 1399px) {.item{height: 250px}}
 @media (min-width: 992px) and (max-width: 1199px) {.item{height: 300px}}
 @media (min-width: 768px) and (max-width: 991px) {.item{height: 300px}}
-@media (min-width: 576px) and (max-width: 767px) {.item{height: 200px}}
-@media (max-width: 575px) {.item{height: 200px}}
+@media (min-width: 576px) and (max-width: 767px) {.item{height: 300px}}
+@media (max-width: 575px) {.item{height: 300px}}
 
 .gradient_text{color: transparent;
                -webkit-background-clip: text;
@@ -35,16 +35,17 @@
                font-family: Tahoma;}
 
 .img_phone {float: left; 
-	          margin-left: 10%;}
+	          margin-left: 10%;
+            margin-top: 0%;}
 
 .img_phone img{height: 270px;}
 
 @media (min-width: 1400px) {.img_phone img{height: 270px}}
 @media (min-width: 1200px) and (max-width: 1399px) {.img_phone img{height: 270px}}
-@media (min-width: 992px) and (max-width: 1199px) {.img_phone img{height: 270px}}
-@media (min-width: 768px) and (max-width: 991px) {.img_phone img{height: 270px}}
-@media (min-width: 576px) and (max-width: 767px) {.img_phone img{height: 170px}}
-@media (max-width: 575px) {.img_phone img{height: 170px}}
+@media (min-width: 992px) and (max-width: 1199px) {.img_phone img{height: 280px}}
+@media (min-width: 768px) and (max-width: 991px) {.img_phone img{height: 280px}}
+@media (min-width: 576px) and (max-width: 767px) {.img_phone img{height: 280px}}
+@media (max-width: 575px) {.img_phone img{height: 280px}}
 
 @media (min-width: 1400px) {.img_phone {margin-left: 10%;}}
 @media (min-width: 1200px) and (max-width: 1399px) {.img_phone {margin-left: 10%;}}
@@ -52,6 +53,13 @@
 @media (min-width: 768px) and (max-width: 991px) {.img_phone {margin-left: 0%;}}
 @media (min-width: 576px) and (max-width: 767px) {.img_phone {margin-left: 0%;}}
 @media (max-width: 575px) {.img_phone {margin-left: 0%;}}
+
+@media (min-width: 1400px) {.img_phone {margin-top: 0%;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.img_phone {margin-top: 0%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.img_phone {margin-top: 5%;}}
+@media (min-width: 768px) and (max-width: 991px) {.img_phone {margin-top: 5%;}}
+@media (min-width: 576px) and (max-width: 767px) {.img_phone {margin-top: 5%;}}
+@media (max-width: 575px) {.img_phone {margin-top: 5%;}}
 
 .carousel-caption {bottom: 0%;}
 
@@ -97,17 +105,24 @@
 
 @media (min-width: 1400px) {.text_header{font-size: 30px;}}
 @media (min-width: 1200px) and (max-width: 1399px) {.text_header{font-size: 25px;}}
-@media (min-width: 992px) and (max-width: 1199px) {.text_header{font-size: 30px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.text_header{font-size: 27px;}}
 @media (min-width: 768px) and (max-width: 991px) {.text_header{font-size: 25px;}}
-@media (min-width: 576px) and (max-width: 767px) {.text_header{font-size: 15px;}}
-@media (max-width: 575px) {.text_header{font-size: 15px;}}
+@media (min-width: 576px) and (max-width: 767px) {.text_header{font-size: 25px;}}
+@media (max-width: 575px) {.text_header{font-size: 25px;}}
 
 @media (min-width: 1400px) {.text_header{margin-top: 15%;}}
 @media (min-width: 1200px) and (max-width: 1399px) {.text_header{margin-top: 20%;}}
-@media (min-width: 992px) and (max-width: 1199px) {.text_header{margin-top: 25%;}}
-@media (min-width: 768px) and (max-width: 991px) {.text_header{margin-top: 30%;}}
-@media (min-width: 576px) and (max-width: 767px) {.text_header{margin-top: 27%;}}
-@media (max-width: 575px) {.text_header{margin-top: 27%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.text_header{margin-top: 3%;}}
+@media (min-width: 768px) and (max-width: 991px) {.text_header{margin-top: 3%;}}
+@media (min-width: 576px) and (max-width: 767px) {.text_header{margin-top: 3%;}}
+@media (max-width: 575px) {.text_header{margin-top: 3%;}}
+
+@media (min-width: 1400px) {.text_header{text-align: left;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.text_header{text-align: left;}}
+@media (min-width: 992px) and (max-width: 1199px) {.text_header{text-align: center;}}
+@media (min-width: 768px) and (max-width: 991px) {.text_header{text-align: center;}}
+@media (min-width: 576px) and (max-width: 767px) {.text_header{text-align: center;}}
+@media (max-width: 575px) {.text_header{text-align: center;}}
 
 .text {position: absolute; 
 	     margin-top: 27%; 
@@ -123,15 +138,22 @@
 @media (min-width: 1200px) and (max-width: 1399px) {.text{font-size: 10px;}}
 @media (min-width: 992px) and (max-width: 1199px) {.text{font-size: 11px;}}
 @media (min-width: 768px) and (max-width: 991px) {.text{font-size: 11px;}}
-@media (min-width: 576px) and (max-width: 767px) {.text{font-size: 9px;}}
-@media (max-width: 575px) {.text{font-size: 9px;}}
+@media (min-width: 576px) and (max-width: 767px) {.text{font-size: 11px;}}
+@media (max-width: 575px) {.text{font-size: 11px;}}
 
 @media (min-width: 1400px) {.text{ margin-top: 27%;}}
 @media (min-width: 1200px) and (max-width: 1399px) {.text{ margin-top: 32%;}}
-@media (min-width: 992px) and (max-width: 1199px) {.text{ margin-top: 40%;}}
-@media (min-width: 768px) and (max-width: 991px) {.text{ margin-top: 45%;}}
-@media (min-width: 576px) and (max-width: 767px) {.text{margin-top: 41%;}}
-@media (max-width: 575px) {.text{margin-top: 41%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.text{ margin-top: 10%;}}
+@media (min-width: 768px) and (max-width: 991px) {.text{ margin-top: 10%;}}
+@media (min-width: 576px) and (max-width: 767px) {.text{margin-top: 10%;}}
+@media (max-width: 575px) {.text{margin-top: 10%;}}
+
+@media (min-width: 1400px) {.text{text-align: left;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.text{text-align: left;}}
+@media (min-width: 992px) and (max-width: 1199px) {.text{text-align: center;}}
+@media (min-width: 768px) and (max-width: 991px) {.text{text-align: center;}}
+@media (min-width: 576px) and (max-width: 767px) {.text{text-align: center;}}
+@media (max-width: 575px) {.text{text-align: center;}}
 
 .block_slide_text {height: 270px;
                    margin-left: 5%; 
@@ -141,10 +163,17 @@
 
 @media (min-width: 1400px) {.block_slide_text{height: 270px}}
 @media (min-width: 1200px) and (max-width: 1399px) {.block_slide_text{height: 270px}}
-@media (min-width: 992px) and (max-width: 1199px) {.block_slide_text{height: 270px}}
-@media (min-width: 768px) and (max-width: 991px) {.block_slide_text{height: 170px}}
-@media (min-width: 576px) and (max-width: 767px) {.block_slide_text{height: 170px}}
-@media (max-width: 575px) {.block_slide_text{height: 170px}}
+@media (min-width: 992px) and (max-width: 1199px) {.block_slide_text{height: 200px}}
+@media (min-width: 768px) and (max-width: 991px) {.block_slide_text{height: 200px}}
+@media (min-width: 576px) and (max-width: 767px) {.block_slide_text{height: 200px}}
+@media (max-width: 575px) {.block_slide_text{height: 200px}}
+
+@media (min-width: 1400px) {.block_slide_text{margin-left: 5%;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.block_slide_text{margin-left: 5%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.block_slide_text{margin-left: 0%;}}
+@media (min-width: 768px) and (max-width: 991px) {.block_slide_text{margin-left: 0%;}}
+@media (min-width: 576px) and (max-width: 767px) {.block_slide_text{margin-left: 0%;}}
+@media (max-width: 575px) {.block_slide_text{margin-left: 0%;}}
 
 .button_text {font-family: Inter; 
 	            font-size: 12px;
@@ -159,21 +188,28 @@
 @media (min-width: 1200px) and (max-width: 1399px) {.button_text{font-size: 9px;}}
 @media (min-width: 992px) and (max-width: 1199px) {.button_text{font-size: 12px;}}
 @media (min-width: 768px) and (max-width: 991px) {.button_text{font-size: 10px;}}
-@media (min-width: 576px) and (max-width: 767px) {.button_text{font-size: 8px;}}
-@media (max-width: 575px) {.button_text{font-size: 8px;}}
-
-@media (min-width: 1400px) {.button_text{margin-top: 1%;}}
-@media (min-width: 1200px) and (max-width: 1399px) {.button_text{margin-top: 3%;}}
-@media (min-width: 992px) and (max-width: 1199px) {.button_text{margin-top: 15%;}}
-@media (min-width: 768px) and (max-width: 991px) {.button_text{margin-top: 20%;}}
-@media (min-width: 576px) and (max-width: 767px) {.button_text{margin-top: 7%;}}
-@media (max-width: 575px) {.button_text{margin-top: 7%;}}
+@media (min-width: 576px) and (max-width: 767px) {.button_text{font-size: 10px;}}
+@media (max-width: 575px) {.button_text{font-size: 10px;}}
 
 .button_ {position: absolute; 
 	        height: 10%; 
 	        margin-top: 40%; 
 	        text-align: left; 
 	        position: relative;} 
+
+@media (min-width: 1400px) {.button_{margin-top: 40%;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.button_{margin-top: 45%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.button_{margin-top: 20%;}}
+@media (min-width: 768px) and (max-width: 991px) {.button_{margin-top: 20%;}}
+@media (min-width: 576px) and (max-width: 767px) {.button_{margin-top: 20%;}}
+@media (max-width: 575px) {.button_{margin-top: 20%;}}
+
+@media (min-width: 1400px) {.button_{margin-left: 0%;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.button_{margin-left: 0%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.button_{margin-left: 40%;}}
+@media (min-width: 768px) and (max-width: 991px) {.button_{margin-left: 40%;}}
+@media (min-width: 576px) and (max-width: 767px) {.button_{margin-left: 40%;}}
+@media (max-width: 575px) {.button_{margin-left: 40%;}}
 
 .bg_white {background: #ffffff;
            position: relative;}
