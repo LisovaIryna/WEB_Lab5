@@ -23,10 +23,10 @@
 
 @media (min-width: 1400px) {.item{height: 300px}}
 @media (min-width: 1200px) and (max-width: 1399px) {.item{height: 250px}}
-@media (min-width: 992px) and (max-width: 1199px) {.item{height: 300px}}
-@media (min-width: 768px) and (max-width: 991px) {.item{height: 300px}}
-@media (min-width: 576px) and (max-width: 767px) {.item{height: 300px}}
-@media (max-width: 575px) {.item{height: 300px}}
+@media (min-width: 992px) and (max-width: 1199px) {.item{height: 900px}}
+@media (min-width: 768px) and (max-width: 991px) {.item{height: 900px}}
+@media (min-width: 576px) and (max-width: 767px) {.item{height: 900px}}
+@media (max-width: 575px) {.item{height: 900px}}
 
 .gradient_text{color: transparent;
                -webkit-background-clip: text;
@@ -245,9 +245,31 @@
 
 .information {height: 75%;
 	            top: 25%;
+              left: 0%;
 	            float: left;
               position: absolute;
               position: relative;}
+
+@media (min-width: 1400px) {.information{height: 75%;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.information{height: 75%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.information{height: 30%;}}
+@media (min-width: 768px) and (max-width: 991px) {.information{height: 30%;}}
+@media (min-width: 576px) and (max-width: 767px) {.information{height: 30%;}}
+@media (max-width: 575px) {.information{height: 30%;}}
+
+@media (min-width: 1400px) {.information{top: 25%;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.information{top: 25%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.information{top: 10%;}}
+@media (min-width: 768px) and (max-width: 991px) {.information{top: 10%;}}
+@media (min-width: 576px) and (max-width: 767px) {.information{top: 10%;}}
+@media (max-width: 575px) {.information{top: 10%;}}
+
+@media (min-width: 1400px) {.information{left: 0%;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.information{left: 0%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.information{left: 37%;}}
+@media (min-width: 768px) and (max-width: 991px) {.information{left: 37%;}}
+@media (min-width: 576px) and (max-width: 767px) {.information{left: 37%;}}
+@media (max-width: 575px) {.information{left: 37%;}}
 
 .image_information {position: absolute;
 	                  top: 5%;
@@ -265,10 +287,10 @@
 
 @media (min-width: 1400px) {.heading{font-size: 15px;}}
 @media (min-width: 1200px) and (max-width: 1399px) {.heading{font-size: 13px;}}
-@media (min-width: 992px) and (max-width: 1199px) {.heading{font-size: 15px;}}
-@media (min-width: 768px) and (max-width: 991px) {.heading{font-size: 15px;}}
-@media (min-width: 576px) and (max-width: 767px) {.heading{font-size: 5px;}}
-@media (max-width: 575px) {.heading{font-size: 3px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.heading{font-size: 20px;}}
+@media (min-width: 768px) and (max-width: 991px) {.heading{font-size: 20px;}}
+@media (min-width: 576px) and (max-width: 767px) {.heading{font-size: 20px;}}
+@media (max-width: 575px) {.heading{font-size: 20px;}}
 
 .text_information {position: absolute;
                    height: 20%;
@@ -281,10 +303,10 @@
 
 @media (min-width: 1400px) {.text_information{font-size: 8px;}}
 @media (min-width: 1200px) and (max-width: 1399px) {.text_information{font-size: 7px;}}
-@media (min-width: 992px) and (max-width: 1199px) {.text_information{font-size: 8px;}}
-@media (min-width: 768px) and (max-width: 991px) {.text_information{font-size: 8px;}}
-@media (min-width: 576px) and (max-width: 767px) {.text_information{font-size: 4px;}}
-@media (max-width: 575px) {.text_information{font-size: 4px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.text_information{font-size: 10px;}}
+@media (min-width: 768px) and (max-width: 991px) {.text_information{font-size: 10px;}}
+@media (min-width: 576px) and (max-width: 767px) {.text_information{font-size: 10px;}}
+@media (max-width: 575px) {.text_information{font-size: 10px;}}
 
 .button_information {position: absolute;
                      height: 10%;
@@ -303,14 +325,28 @@
 
 @media (min-width: 1400px) {.button_information_text{font-size: 8px;}}
 @media (min-width: 1200px) and (max-width: 1399px) {.button_information_text{font-size: 7px;}}
-@media (min-width: 992px) and (max-width: 1199px) {.button_information_text{font-size: 8px;}}
-@media (min-width: 768px) and (max-width: 991px) {.button_information_text{font-size: 8px;}}
-@media (min-width: 576px) and (max-width: 767px) {.button_information_text{font-size: 4px;}}
-@media (max-width: 575px) {.button_information_text{font-size: 4px;}}
+@media (min-width: 992px) and (max-width: 1199px) {.button_information_text{font-size: 12px;}}
+@media (min-width: 768px) and (max-width: 991px) {.button_information_text{font-size: 12px;}}
+@media (min-width: 576px) and (max-width: 767px) {.button_information_text{font-size: 12px;}}
+@media (max-width: 575px) {.button_information_text{font-size: 12px;}}
 
 .place1 {left: 12.5%;}
 
+@media (min-width: 1400px) {.place1{left: 12.5%;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.place1{left: 12.5%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.place1{left: 37%;}}
+@media (min-width: 768px) and (max-width: 991px) {.place1{left: 37%;}}
+@media (min-width: 576px) and (max-width: 767px) {.place1{left: 37%;}}
+@media (max-width: 575px) {.place1{left: 37%;}}
+
 .place2 {left: 25%;}
+
+@media (min-width: 1400px) {.place2{left: 25%;}}
+@media (min-width: 1200px) and (max-width: 1399px) {.place2{left: 25%;}}
+@media (min-width: 992px) and (max-width: 1199px) {.place2{left: 37%;}}
+@media (min-width: 768px) and (max-width: 991px) {.place2{left: 37%;}}
+@media (min-width: 576px) and (max-width: 767px) {.place2{left: 37%;}}
+@media (max-width: 575px) {.place2{left: 37%;}}
 
 .bg_ {background-image: url(images/Background.png);}
 
